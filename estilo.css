@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto';
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.wrapper{
+    position: relative;
+    top: 25%;
+    left: 25%;
+  }
+  
+
+
+
+
+  body, p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    /*tamanho da fonte*/
+    font-style: "Archivo",sans-serif;
+    /*estilo*/
+    color: rgb(255, 255, 255);
+    /*cor do texto*/
+    text-align: center;
+    /*alinhamento*/
+}
+
+h1 {
+    font-size: 3.0rem;
+    color: rgb(68, 66, 66);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 2600px 400px;
+    grid-template-areas: 
+    "cabecalho cabecalho"
+
+    "secao barra-lateral"
+
+    "rodape rodape";
+}
+
+header {
+    grid-area: cabecalho;
+    background-color: #fafcfe;
+    display: flex;
+}
+
+section {
+    grid-area: secao;
+    background-color: #0b2c69;
+}
+
+aside {
+    grid-area: barra-lateral;
+    background-color: rgb(20, 38, 77);
+}
+
+footer {
+    grid-area: rodape;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #051e4b ;
+}
+
+.parte1, .parte2 {
+    width: 50%;
+    background-color: rgb(76, 128, 211);
+}
+
+.parte2 {
+    width: 50%;
+    margin: 0 2px;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+@media(max-width: 768px) {
+    body {
+        margin: 0 15px;
+    }
+
+    .principal, .parte1, .parte2, .parte3 {
+        width: 100%;
+    }
+
+    .parte2 {
+        order: initial;
+    }
+}
+
+.vc {
+    margin-top: 10pc;
+    margin-right: 61pc;
+}
+.vc2 {
+    margin-top: -27pc;
+    margin-left: 15px;
+}
+
+.agen{
+    margin-top: -25pc;
+    margin-left: 58pc;
+}
+.info img{
+    margin-top: 20pc;
+}
+.info img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.curso {
+    margin-top: 5pc;
+    margin-right: 45pc;
+    margin-left: 5pc;
+}
+
+.img {
+    margin-top: -30pc;
+    margin-left: 58pc;
+    margin-right: 15pc;
+}
+
+.logo{
+    position:absolute;
+    margin-top: 4pc;
+    margin-left: 3pc;
+}
+
+.rp {
+    width: 880px;
+    position:absolute;
+    margin: 20pc;
+    margin-left: 25pc;
+    font-size: 1.0rem;
+
+}
+.es {
+    position:absolute;
+    margin: 13pc;
+    margin-left: 18pc;
+    font-size: 1.2rem;
+}
+.botao {
+    text-decoration: none;
+    color:#0b2c69;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 50pc;
+}
+.botao3 {
+    color:#0b2c69;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 10pc;
+}
+.botao3 a:hover{
+    background-color: #051e4b;
+
+}
+.e {
+    position: relative;
+    display: inline-block;
+    height: 1px;
+    width: 1px;
+  }
+.e p{
+    position: relative;
+    display: inline-block;
+
+    width: 120px;
+    height: 34px;
+    left: 9.7pc;
+    top: 35px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    
+    color: #000000;
+}    
+.botao3 {
+    position: absolute;
+    top: -25px;
+    left: -18px;
+    width: 150px;
+    height: 70px;
+    background-color: #ffc942;
+    opacity: 1;
+    border-radius: 15%;
+    transition: opacity 0.5s;
+  }
+  .e:hover .botao3 {
+    opacity: 1;
+  }
+.botao a:hover{
+    cursor: pointer;
+    color: #000e29;
+    text-decoration:double;
+}
+.botao2 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 1.7pc;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.botao4 {
+    color:#0b2c69;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 2300px;
+    margin-left: -65pc;
+}
+.botao4 a:hover{
+    background-color: #051e4b;
+
+}
+
+.ultimobotao {
+    margin-top: 300px;
+    margin-left: 70%
+}
+
+.botao4 {
+   
+    background-color: #ffc942;
+    opacity: 1;
+    border-radius: 15%;
+    transition: opacity 0.5s;
+    padding: 20px;
+  }
+  .ee:hover .botao4 {
+    opacity: 1;
+  }

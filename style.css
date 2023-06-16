@@ -1,0 +1,169 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Tahoma';
+    font-size: 25px;
+    color: rgb(17, 16, 16);
+    background-color: #0b2c69;
+  }
+
+
+  
+  h1 {
+    text-align: center;
+    color: #e5e4eb;
+  }
+    
+  h2 {
+   text-align: center;
+   
+  }
+
+  td {
+    color: #e5e4eb;
+  }
+
+  th{
+    color: #e5e4eb;
+  }
+
+
+    
+  form {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #faf5f5;
+   border-radius: 5px;
+  }   
+  
+  .form2 {
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #faf5f5;
+    border-radius: 5px;
+   }   
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select[id="estado"],
+  
+  textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #816be3;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"]{
+       background-color: rgb(202, 202, 202);
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+input[type="radio"]:checked{
+    background-color: #e5e4eb;
+}
+
+.item {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #816be3;
+  border-radius: 5px;
+  font-size: 20px;
+
+}
+
+table {
+  font-size: 20px;
+  padding: 10px;
+  border: 10px solid #08214f;
+}
+th {
+  padding: 15px;
+  border: 1px solid black;
+}
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.botao {
+  text-decoration: none;
+  color:#0b2c69;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 50pc;
+}
+
+.principal {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 950px 400px;
+  grid-template-areas: 
+  
+  "cabecalho cabecalho"
+
+  "secao barra-lateral"
+
+  "rodape rodape";
+
+}
+
+header {
+  grid-area: cabecalho;
+  background-color: #fafcfe;
+  display: flex;
+}
+
+footer {
+  grid-area: rodape;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #051e4b ;
+}
+
+
+.logo{
+  position:absolute;
+  margin-top: 4pc;
+  margin-left: 3pc;
+}
+
+.es {
+  position:absolute;
+  margin: 13pc;
+  margin-left: 18pc;
+  font-size: 1.2rem;
+  color: #e5e4eb;
+
+}
+
+.rp {
+  width: 880px;
+  position:absolute;
+  margin: 20pc;
+  margin-left: 25pc;
+  font-size: 1.0rem;
+  color: #e5e4eb;
+  text-align: center;
+
+}
